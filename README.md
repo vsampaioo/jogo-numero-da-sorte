@@ -11,13 +11,11 @@ O jogo consiste em adivinhar um número secreto entre 1 e 100. O usuário insere
 - **Interface interativa:** Botões de "Chutar" e "Novo jogo" para controlar a jogabilidade.  
 - **Feedback visual:** Imagem do personagem Vegetti aparece ao acertar o número secreto.
 
-## Tecnologias utilizadas
 
-- HTML  
-- CSS  
-- JavaScript  
-- Biblioteca [ResponsiveVoice](https://responsivevoice.org/)
 
----
 
-Projeto desenvolvido com o objetivo de praticar lógica de programação e aplicar melhorias pessoais na interface e na experiência do usuário.
+## Projeto desenvolvido com o objetivo de praticar lógica de programação e aplicar melhorias pessoais na interface e na experiência do usuário.
+
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2M3cWpuaDRnNnR3bGhqc3lzeXJ5c2d6YmlzdWg3MzRkMXZ0ZnMxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lJNoBCvQYp7nq/giphy.gif" alt="Gatinho tentando adivinhar" width="200" />
+</p>
