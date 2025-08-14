@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+body::before {
+    background-image: url("img/code.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.social-links {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-links img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    min-height: 80%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background-image: url("img/Ruido.png");
+    background-size: cover;
+    position: relative;
+}
+
+.container__conteudo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container__informacoes {
+    flex: 1;
+    padding: 3rem;
+    min-width: 300px;
+}
+
+.container__botao {
+    border-radius: 16px;
+    background: #1875E8;
+    padding: 16px 24px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.container__botao:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.container__texto {
+    margin: 16px 0;
+}
+
+.container__texto-azul {
+    color: #1875E8;
+}
+
+.container__input {
+    width: 100%;
+    height: 72px;
+    border-radius: 100px;
+    background-color: #FFF;
+    border: none;
+    color: #1875E8;
+    padding: 2rem;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.container__input::placeholder {
+    color: #1875E8;
+    opacity: 0.7;
+}
+
+.container__botoes {
+    display: flex;
+    gap: 2em;
+}
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 72px;
+    padding-bottom: 3rem;
+}
+
+p,
+button {
+    font-family: 'Inter', sans-serif;
+}
+
+.texto__paragrafo {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.container__imagem-pessoa {
+    width: 60%;
+    max-width: 500px;
+    min-width: 300px;
+    height: auto;
+    position: relative;
+    top: -40px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container__botao {
+        font-size: 18px;
+    }
+
+    .texto__paragrafo {
+        font-size: 20px;
+    }
+
+    .container__imagem-pessoa {
+<<<<<<< HEAD
+        margin-top: 20px;
+        top: 0;
+        width: 70%;
+        max-width: 300px;
+        min-width: 200px;
+    }
+=======
+    margin-top: 20px;
+    top: 0;
+    width: 80%;
+    max-width: 400px;
+    min-width: 200px;
+    display: block;
+}
+
+>>>>>>> a647e5b (atualização do jogo)
+}
+
+
